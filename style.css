@@ -2,6 +2,34 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .logo img {
+    width: 200px;
+    height: 60px;
+    margin: 10px 20px;
+  }
+
+  .tablet-version {
+    background-color: #d45749;
+  }
+
+  .laptop-version {
+    display: none;
+  }
+
+  .tablet-ul {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+
+  .tablet-ul li {
+    padding-right: 60px;
+  }
+
+  .tablet-ul li i {
+    color: white;
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
