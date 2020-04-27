@@ -1,0 +1,43 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1025px) {
+  .logo img {
+    margin: 10px 0 10px 30px;
+  }
+
+  .laptop-ul {
+    margin: auto 30px;
+  }
+
+  .laptop-version {
+    background-color: #d45749;
+  }
+
+  .nav-container,
+  .nav-container ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-container {
+    justify-content: space-between;
+  }
+
+  .laptop-ul li {
+    margin-left: 20px;
+  }
+
+  .laptop-ul li i {
+    color: white;
+    font-size: 20px;
+  }
+
+  .laptop-ul li a {
+    color: white;
+    text-decoration: none;
+  }
+}
