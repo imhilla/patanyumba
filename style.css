@@ -45,6 +45,10 @@
     background-color: #d45749;
   }
 
+  .tablet-version {
+    display: none;
+  }
+
   .nav-container,
   .nav-container ul {
     display: flex;
