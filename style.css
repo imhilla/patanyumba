@@ -68,7 +68,7 @@
     padding: 10px;
   }
 
-  .btn {
+  .btntop {
     background-color: #d45749;
     font-size: 15px;
     border-radius: 0%;
@@ -150,7 +150,7 @@
     padding: 0 130px;
   }
 
-  .btn {
+  .btntop {
     background-color: #d45749;
     font-size: 15px;
     border-radius: 0%;
@@ -253,7 +253,7 @@
     padding: 2px 130px;
   }
 
-  .btn {
+  .btntop {
     background-color: #d45749;
     font-size: 15px;
     border-radius: 0%;
@@ -339,6 +339,27 @@
   margin: 10px;
 }
 
+.find-buttons {
+  width: 100vw;
+}
+
+.find-buttons h3 {
+  color: white;
+  font-size: 25px;
+}
+
+.find-buttons p {
+  color: white;
+  font-size: 20px;
+}
+
+.images img {
+  border-radius: 50%;
+  height:200px;
+  width: 200px;
+  margin: 30px;
+}
+
 .find-school {
   background-color: #d45749;
 }
@@ -349,4 +370,18 @@
 
 .apps {
   background-color: #549cdc;
+}
+
+.find1 button {
+  color: #d45749;
+  background-color: white;
+}
+
+.find2 button {
+  color: #98a4a5;
+  background-color: white;
+}
+
+.find-school, .near-you, .apps {
+  padding: 30px;
 }
