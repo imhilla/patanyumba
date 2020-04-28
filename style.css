@@ -355,7 +355,7 @@
 
 .images img {
   border-radius: 50%;
-  height:200px;
+  height: 200px;
   width: 200px;
   margin: 30px;
 }
@@ -382,6 +382,56 @@
   background-color: white;
 }
 
-.find-school, .near-you, .apps {
+.find-school,
+.near-you,
+.apps {
   padding: 30px;
+}
+
+footer {
+  position: absolute;
+  top: 2000px;
+  bottom: 0;
+  width: 100vw;
+}
+
+.upper-footer {
+  background-color: black;
+  padding: 30px;
+  margin: auto;
+  width: 100vw;
+  justify-content: center;
+}
+
+.upper-footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.upper-footer ul li {
+  margin-left: 30px;
+}
+
+.upper-footer ul {
+  border-top: 1px solid rgb(167, 163, 163);
+  border-bottom: 1px solid rgb(180, 177, 177);
+}
+
+.location {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(158, 157, 157);
+}
+
+.upperi {
+}
+
+.fa-map-marker-alt {
+  color: white;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
 }
