@@ -1,4 +1,5 @@
 @media screen and (max-width: 768px) {
+
   .tablet-version,
   .laptop-version {
     display: none;
@@ -74,6 +75,7 @@
     border-radius: 0%;
     color: white;
     margin: 10px 0;
+    border: none;
   }
 
   .procedure-grids {
@@ -91,6 +93,66 @@
   .procedure-grids div i {
     font-size: 30px;
     margin: 10px;
+  }
+
+  .procedure {
+    position: relative;
+    top: 250px;
+    overflow-x: hidden;
+  }
+
+  .find-buttons {
+    position: relative;
+    overflow-x: hidden;
+    top: 200px;
+  }
+
+  .find-buttons h3 {
+    color: white;
+    font-size: 16px;
+  }
+
+  .find-buttons p {
+    color: white;
+    font-size: 14px;
+  }
+
+  .images img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+  }
+
+  .find-school {
+    background-color: #d45749;
+  }
+
+  .find-school .button {
+    font-size: 14px;
+  }
+
+  .near-you {
+    background-color: #98a4a5;
+  }
+
+  .apps {
+    background-color: #549cdc;
+  }
+
+  .find1 button {
+    color: #d45749;
+    background-color: white;
+  }
+
+  .find2 button {
+    color: #98a4a5;
+    background-color: white;
+  }
+
+  .find-school,
+  .near-you,
+  .apps {
+    padding: 30px;
   }
 }
 
@@ -155,9 +217,9 @@
     font-size: 15px;
     border-radius: 0%;
     color: white;
-    padding: 2px 5px;
+    padding: 0px 5px;
     margin-left: -4px;
-    margin-bottom: 3px;
+    border: none;
   }
 
   label {
@@ -167,9 +229,6 @@
   }
 
   .how-works {
-    position: relativ;
-    right: 38em;
-    top: 19em;
     background: rgba(255, 255, 255);
   }
 
@@ -180,11 +239,72 @@
     padding: 0 10px;
   }
 
+  .procedure {
+    position: relative;
+    top: 300px;
+  }
+
   .procedure-grids {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+
+
+  .find-buttons {
+    position: relative;
+    overflow-x: hidden;
+    top: 200px;
+  }
+
+  .find-buttons {
+    width: 100vw;
+  }
+
+  .find-buttons h3 {
+    color: white;
+    font-size: 25px;
+  }
+
+  .find-buttons p {
+    color: white;
+    font-size: 20px;
+  }
+
+  .images img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+
+  .find-school {
+    background-color: #d45749;
+  }
+
+  .near-you {
+    background-color: #98a4a5;
+  }
+
+  .apps {
+    background-color: #549cdc;
+  }
+
+  .find1 button {
+    color: #d45749;
+    background-color: white;
+  }
+
+  .find2 button {
+    color: #98a4a5;
+    background-color: white;
+  }
+
+  .find-school,
+  .near-you,
+  .apps {
+    padding: 30px;
+  }
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -258,9 +378,9 @@
     font-size: 15px;
     border-radius: 0%;
     color: white;
-    padding: 2px 5px;
-    margin-left: -4px;
-    margin-bottom: 3px;
+    padding: 1px 5px;
+    margin-left: -3px;
+    border: none;
   }
 
   label {
@@ -276,28 +396,88 @@
     padding: 0 10px;
   }
 
+  .procedure {
+    position: relative;
+    top: 250px;
+    overflow-x: hidden;
+  }
+
   .procedure-grids {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
 
+
   .find-buttons {
-    position: absolute;
-    top: 1200px;
+    position: relative;
+    overflow-x: hidden;
+    top: 200px;
   }
+
+  .find-buttons {
+    width: 100vw;
+  }
+
+  .find-buttons h3 {
+    color: white;
+    font-size: 25px;
+  }
+
+  .find-buttons p {
+    color: white;
+    font-size: 20px;
+  }
+
+  .images img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+
+  .find-school {
+    background-color: #d45749;
+  }
+
+  .near-you {
+    background-color: #98a4a5;
+  }
+
+  .apps {
+    background-color: #549cdc;
+  }
+
+  .find1 button {
+    color: #d45749;
+    background-color: white;
+  }
+
+  .find2 button {
+    color: #98a4a5;
+    background-color: white;
+  }
+
+  .find-school,
+  .near-you,
+  .apps {
+    padding: 30px;
+  }
+
 }
 
-.search-container {
+.global {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  background-image: url(img/backroundimg.jpg);
+  overflow: hidden;
+  background: url(img/backroundimg.jpg) 50% 100% no-repeat;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 .form-container {
@@ -314,10 +494,6 @@
   max-width: fit-content;
   align-self: center;
   margin: 30px;
-}
-
-.procedure {
-  position: absolute;
 }
 
 .procedure h1 {
@@ -339,60 +515,14 @@
   margin: 10px;
 }
 
-.find-buttons {
-  width: 100vw;
-}
 
-.find-buttons h3 {
-  color: white;
-  font-size: 25px;
-}
-
-.find-buttons p {
-  color: white;
-  font-size: 20px;
-}
-
-.images img {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  margin: 30px;
-}
-
-.find-school {
-  background-color: #d45749;
-}
-
-.near-you {
-  background-color: #98a4a5;
-}
-
-.apps {
-  background-color: #549cdc;
-}
-
-.find1 button {
-  color: #d45749;
-  background-color: white;
-}
-
-.find2 button {
-  color: #98a4a5;
-  background-color: white;
-}
-
-.find-school,
-.near-you,
-.apps {
-  padding: 30px;
-}
+/*
 
 footer {
-  position: absolute;
-  top: 2000px;
-  bottom: 0;
+  position: relative;
+  top: 200px;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .upper-footer {
@@ -464,4 +594,14 @@ footer {
   margin-left: -5px;
   padding: 6px 7px;
   border: none;
+}
+
+.last-footer {
+  background-color: gray;
+}
+
+.social li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
