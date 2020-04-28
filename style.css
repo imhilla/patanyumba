@@ -435,3 +435,33 @@ footer {
   border-radius: 50%;
   border: 1px solid white;
 }
+
+.lower {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px;
+  color: white;
+  background-color: black;
+}
+
+.lower h1 {
+  font-size: 25px;
+}
+
+.lower a {
+  color: #d45749;
+}
+
+.subscribe input {
+  background-color: black;
+  border: 1px solid gray;
+  padding: 5px 0;
+}
+
+.subscribe button {
+  color: white;
+  background-color: gray;
+  margin-left: -5px;
+  padding: 6px 7px;
+  border: none;
+}
