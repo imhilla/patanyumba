@@ -411,13 +411,11 @@
 
   .find-buttons {
     position: relative;
-    overflow-x: hidden;
     top: 200px;
+    overflow: hidden;
+
   }
 
-  .find-buttons {
-    width: 100vw;
-  }
 
   .find-buttons h3 {
     color: white;
