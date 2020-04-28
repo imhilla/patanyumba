@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .tablet-version,
   .laptop-version {
     display: none;
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .logo img {
     width: 200px;
     height: 60px;
@@ -59,7 +59,7 @@
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 769px) {
   .logo img {
     margin: 10px 0 10px 30px;
   }
