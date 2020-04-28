@@ -281,3 +281,7 @@
   align-self: center;
   margin: 30px;
 }
+
+.procedure {
+  position: absolute;
+}
