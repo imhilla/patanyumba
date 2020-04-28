@@ -102,9 +102,45 @@
     color: white;
     text-decoration: none;
   }
+
+  h1.billboard {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .form-container {
+    position: relative;
+    margin: 150px 100px 0 400px;
+  }
+
+  .search-bar {
+    background: rgba(255, 255, 255, 0.45);
+  }
+  
+  .search-bar input {
+    border: 0;
+    padding: 0 80px;
+  }
+
+  legend {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .how-works {
+    position: absolute;
+    right: 600px;
+    top: 600px;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.45);
+  }
 }
 
-main {
+.search-container {
+  position: absolute;
+  width: 100%;
   background-image: url(img/backroundimg.jpg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
