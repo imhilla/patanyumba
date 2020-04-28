@@ -110,17 +110,28 @@
   }
 
   .form-container {
-    position: relative;
-    margin: 150px 100px 0 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
   }
 
   .search-bar {
     background: rgba(255, 255, 255, 0.45);
+    padding: 30px;
+    border-radius: 10px;
   }
-  
+
   .search-bar input {
     border: 0;
-    padding: 0 80px;
+    padding: 2px 130px;
+  }
+
+  .btn {
+    background-color: #d45749;
+    font-size: 15px;
+    color: white;
+    padding: 2px 5px;
   }
 
   legend {
@@ -131,10 +142,16 @@
 
   .how-works {
     position: absolute;
-    right: 600px;
-    top: 600px;
-    font-size: 15px;
-    background: rgba(255, 255, 255, 0.45);
+    right: 630px;
+    top: 300px;
+    background: rgba(255, 255, 255);
+  }
+
+  .how-works a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 0 10px;
   }
 }
 
@@ -151,5 +168,5 @@
 }
 
 .form-container {
-  height: 100vh;
+  height: 70vh;
 }
