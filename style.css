@@ -281,6 +281,11 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+
+  .find-buttons {
+    position: absolute;
+    top: 1200px;
+  }
 }
 
 .search-container {
@@ -334,7 +339,14 @@
   margin: 10px;
 }
 
-.find-buttons {
-  position: absolute;
-  top: 1000px;
+.find-school {
+  background-color: #d45749;
+}
+
+.near-you {
+  background-color: #98a4a5;
+}
+
+.apps {
+  background-color: #549cdc;
 }
