@@ -296,7 +296,7 @@
 }
 
 .form-container {
-  height: 80vh;
+  height: fit-content;
 }
 
 .fieldset {
@@ -332,4 +332,9 @@
 .procedure-grids div i {
   font-size: 30px;
   margin: 10px;
+}
+
+.find-buttons {
+  position: absolute;
+  top: 1000px;
 }
