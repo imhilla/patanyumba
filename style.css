@@ -178,7 +178,7 @@
   .upper-footer ul li {
     display: inline-block;
     padding-right: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
   }
 
   .hide {
@@ -368,16 +368,16 @@
   }
 
   .first-about {
-    padding-right: 25px;
+    padding-right: 23px;
   }
 
   .first-facebook {
-    padding-left: 25px;
+    padding-left: 23px;
   }
 
   .location {
     position: relative;
-    top: -40px;
+    top: -45px;
     right: -270px;
     width: 60px;
     height: 60px;
