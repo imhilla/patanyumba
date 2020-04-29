@@ -568,9 +568,10 @@
 footer {
   position: relative;
   top: 200px;
-  width: 100vw;
   overflow-x: hidden;
 }
+/*
+
 
 .upper-footer {
   background-color: black;
