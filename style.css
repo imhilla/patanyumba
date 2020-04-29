@@ -1,5 +1,4 @@
 @media screen and (max-width: 768px) {
-
   .tablet-version,
   .laptop-version {
     display: none;
@@ -866,4 +865,26 @@
   width: 100px;
   border-radius: 50%;
   border: 1px solid white;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.drop-down-section {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin: auto;
+  justify-content: center;
+}
+
+form .search-results {
+  background-color: gray;
+}
+
+.form-section h1 {
+  font-size: 25px;
+  text-align: center;
 }
