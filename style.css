@@ -166,7 +166,6 @@
     background-color: black;
     justify-content: center;
     padding-top: 30px;
-
   }
 
   .upper-footer ul li a {
@@ -184,7 +183,6 @@
   .hide {
     display: none;
   }
-
 
   .lower {
     display: flex;
@@ -232,6 +230,32 @@
     font-size: 14px;
   }
 
+  .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social-icons li {
+    margin: 20px;
+  }
+
+  .social-icons li a {
+    color: white;
+    font-size: 17px;
+  }
+
+  .social-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 20px;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -328,7 +352,6 @@
     grid-template-rows: repeat(2, 1fr);
   }
 
-
   .find-buttons {
     position: relative;
     overflow-x: hidden;
@@ -383,7 +406,6 @@
     padding: 30px;
   }
 
-
   footer {
     position: relative;
     top: 200px;
@@ -431,7 +453,6 @@
     border-radius: 50%;
     border: 1px solid rgb(158, 157, 157);
   }
-
 
   .fa-map-marker-alt {
     color: white;
@@ -483,6 +504,36 @@
     font-size: 17px;
   }
 
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social-icons li {
+    margin: 20px;
+  }
+
+  .social-icons li a {
+    color: white;
+    font-size: 25px;
+  }
+
+  .social-text {
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+
+  .made-with,
+  .rights {
+    margin: 20px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -586,14 +637,11 @@
     grid-template-rows: repeat(2, 1fr);
   }
 
-
   .find-buttons {
     position: relative;
     top: 200px;
     overflow: hidden;
-
   }
-
 
   .find-buttons h3 {
     color: white;
@@ -638,7 +686,6 @@
   .apps {
     padding: 30px;
   }
-
 
   footer {
     position: relative;
@@ -687,7 +734,6 @@
     border: 1px solid rgb(158, 157, 157);
   }
 
-
   .fa-map-marker-alt {
     color: white;
     font-size: 30px;
@@ -731,10 +777,35 @@
     background-color: gray;
   }
 
-  .social li a {
-    text-decoration: none;
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social-icons li {
+    margin: 20px;
+  }
+
+  .social-icons li a {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  .social-text {
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+
+  .made-with,
+  .rights {
+    margin: 20px;
   }
 }
 
