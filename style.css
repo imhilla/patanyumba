@@ -302,6 +302,7 @@
     grid-template-rows: repeat(2, 1fr);
   }
 
+
   .find-buttons {
     position: relative;
     overflow-x: hidden;
@@ -356,113 +357,6 @@
     padding: 30px;
   }
 
-  footer {
-    position: relative;
-    top: 200px;
-    overflow-x: hidden;
-  }
-
-  .upper-footer {
-    background-color: black;
-    padding: 70px;
-    margin: auto;
-    width: 100vw;
-    justify-content: center;
-  }
-
-  .upper-footer ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 12px;
-  }
-
-  .upper-footer ul li {
-    margin-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
-  .upper-footer ul {
-    border-top: 1px solid rgb(167, 163, 163);
-    border-bottom: 1px solid rgb(180, 177, 177);
-  }
-
-  .location img {
-    width: 50px;
-    border-radius: 50%;
-    border: 1px solid rgb(158, 157, 157);
-    height: 50px;
-  }
-
-  .location {
-    position: relative;
-    right: -265px;
-    top: -60px;
-  }
-
-  .first-about {
-    padding-right: 30px;
-  }
-
-  .first-facebook {
-    padding-left: 30px;
-  }
-
-  /*
-
-
-
-.fa-map-marker-alt {
-  color: white;
-  font-size: 30px;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  border: 1px solid white;
-}
-
-.lower {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 30px;
-  color: white;
-  background-color: black;
-}
-
-.lower h1 {
-  font-size: 25px;
-}
-
-.lower a {
-  color: #d45749;
-}
-
-.subscribe input {
-  background-color: black;
-  border: 1px solid gray;
-  padding: 5px 0;
-}
-
-.subscribe button {
-  color: white;
-  background-color: gray;
-  margin-left: -5px;
-  padding: 6px 7px;
-  border: none;
-}
-
-.last-footer {
-  background-color: gray;
-}
-
-.social li a {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-
-
-*/
 }
 
 @media screen and (min-width: 1025px) {
@@ -566,11 +460,14 @@
     grid-template-rows: repeat(2, 1fr);
   }
 
+
   .find-buttons {
     position: relative;
     top: 200px;
     overflow: hidden;
+
   }
+
 
   .find-buttons h3 {
     color: white;
@@ -668,12 +565,16 @@
   margin: 10px;
 }
 
-
-
+footer {
+  position: relative;
+  top: 200px;
+  width: 100vw;
+  overflow-x: hidden;
+}
 
 .upper-footer {
   background-color: black;
-  padding: 70px;
+  padding: 30px;
   margin: auto;
   width: 100vw;
   justify-content: center;
@@ -686,8 +587,6 @@
 
 .upper-footer ul li {
   margin-left: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 .upper-footer ul {
@@ -696,16 +595,13 @@
 }
 
 .location {
- position: relative;
- right: -360px;
- top: -80px;
-}
-
-.location img {
-  width: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   border: 1px solid rgb(158, 157, 157);
-  height: 100px;
+}
+
+.upperi {
 }
 
 .fa-map-marker-alt {
@@ -755,12 +651,4 @@
   text-decoration: none;
   color: white;
   font-size: 20px;
-}
-
-.first-about {
-  padding-right: 50px;
-}
-
-.first-facebook {
-  padding-left: 50px;
 }
