@@ -1,84 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/fdedc31e53.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/fdedc31e53.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="phone-version">
         <nav class="d-flex flex-column align-items-center">
-          <div class="logo">
-            <a href=""><img src="img/logoresized.PNG" alt=""></a>
-          </div>
-          <ul class="phone-ul d-flex flex-row">
-            <li><a href=""><i class="fas fa-search"></i></a></li>
-            <li><a href=""><i class="fas fa-home"></i></a></li>
-            <li><a href=""><i class="fas fa-blog"></i></a></li>
-            <li><a href=""><i class="fas fa-bars"></i></a></li>
-          </ul>
+            <div class="logo">
+                <a href=""><img src="img/logoresized.PNG" alt=""></a>
+            </div>
+            <ul class="phone-ul d-flex flex-row">
+                <li><a href=""><i class="fas fa-search"></i></a></li>
+                <li><a href=""><i class="fas fa-home"></i></a></li>
+                <li><a href=""><i class="fas fa-blog"></i></a></li>
+                <li><a href=""><i class="fas fa-bars"></i></a></li>
+            </ul>
         </nav>
-      </header>
-      <header class="tablet-version">
+    </header>
+    <header class="tablet-version">
         <nav class="d-flex flex-row align-items-center">
-          <div class="logo">
-            <a href=""><img src="img/logoresized.PNG" alt=""></a>
-          </div>
-          <ul class="tablet-ul">
-            <li><a href=""><i class="fas fa-search"></i></a></li>
-            <li><a href=""><i class="fas fa-home"></i></a></li>
-            <li><a href=""><i class="fas fa-blog"></i></a></li>
-            <li><a href=""><i class="fas fa-bars"></i></a></li>
-          </ul>
+            <div class="logo">
+                <a href=""><img src="img/logoresized.PNG" alt=""></a>
+            </div>
+            <ul class="tablet-ul">
+                <li><a href=""><i class="fas fa-search"></i></a></li>
+                <li><a href=""><i class="fas fa-home"></i></a></li>
+                <li><a href=""><i class="fas fa-blog"></i></a></li>
+                <li><a href=""><i class="fas fa-bars"></i></a></li>
+            </ul>
         </nav>
-      </header>
-      <header class="laptop-version">
+    </header>
+    <header class="laptop-version">
         <nav class="nav-container d-flex align-items-end">
-          <div class="logo">
-            <a href=""><img src="img/logoresized.PNG" alt=""></a>
-          </div>
-          <ul class="laptop-ul">
-            <li><i class="fas fa-search"></i><a href=""> HOMES</a></li>
-            <li><i class="fas fa-home"></i><a href=""> ABOUT</a></li>
-            <li><i class="fas fa-blog"></i><a href=""> BLOG</a></li>
-            <li><i class="fas fa-bars"></i><a href=""> MORE..</a></li>
-          </ul>
+            <div class="logo">
+                <a href=""><img src="img/logoresized.PNG" alt=""></a>
+            </div>
+            <ul class="laptop-ul">
+                <li><i class="fas fa-search"></i><a href=""> HOMES</a></li>
+                <li><i class="fas fa-home"></i><a href=""> ABOUT</a></li>
+                <li><i class="fas fa-blog"></i><a href=""> BLOG</a></li>
+                <li><i class="fas fa-bars"></i><a href=""> MORE..</a></li>
+            </ul>
         </nav>
-      </header>
+    </header>
     <form action="" class="sign-up-form">
         <div class="sign-up-container d-flex flex-column">
             <label for="name">First Name*</label>
             <input type="text" placeholder="First Name" name="name" required>
-    
+
             <label for="second">Second Name</label>
             <input type="text" placeholder="Second Name" name="name" required>
-    
+
             <label for="email">Email</label>
             <input type="text" placeholder="Email" name="email" required>
-    
+
             <label for="psw">Username</label>
             <input type="text" placeholder="Username" name="name" required>
-    
+
             <label for="psw">Username</label>
             <input type="password" placeholder="Username" name="name" required>
-    
+
             <label for="password">Password</label>
             <input type="password" placeholder="Enter Password" name="password" required>
-    
+
             <label for="psw-repeat">Confirm Password</label>
             <input type="password" placeholder="Confirm Password" name="password-rpt" required>
-    
+
             <div class="sign-up-button">
-                <button type="submit" class="signupbtn">Sign Up</button> 
+                <button type="submit" class="signupbtn">Sign Up</button>
                 <button type="button" class="signinbtn">Sign in</button>
             </div>
         </div>
     </form>
+    <footer class="d-flex flex-column">
+        <div class="d-flex flex-row upper-footer">
+            <div>
+                <ul class="d-sm-flex flex-sm-row">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">SEARCH</a></li>
+                    <li><a href="">ADVERTISE</a></li>
+                    <li class="first-about"><a href="">ABOUT US</a></li>
+                    <li class="first-facebook"><a href="">FACEBOOK</a></li>
+                    <li><a href="">TWITTER</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">GOOGLE++</a></li>
+                </ul>
+                <div class="hide">
+                    <li><img src="img/location.png" class="location" alt=""></li>
+                </div>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="subscribe">
+                <h1>Subscribe</h1>
+                <div>
+                    <input type="text" placeholder="you@example.com">
+                    <button class="bt">send</button>
+                </div>
+            </div>
+            <div class="contact">
+                <h1>Contact</h1>
+                <div>
+                    <p>Have a question or need assistance ?</p>
+                    <a href="">hillary@company.com</a>
+                </div>
+            </div>
+            <div class="about">
+                <h1>About</h1>
+                <div>
+                    <p>Patanyumba is a online platform that brings Kenyan homes closer to you. The user silply searches
+                        and gets
+                        access to beatiful homes.</p>
+                    <a href="">Learn more...</a>
+                </div>
+            </div>
+        </div>
+        <div class="last-footer">
+            <div class="social">
+                <ul class="social-icons">
+                    <li>
+                        <a href="" class="facebook"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="instagram"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="tumblr"><i class="fab fa-tumblr"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+                <div class="social-text">
+                    <div class="made-with">
+                        <p>Made with & in Kenya, Nairobi.</p>
+                    </div>
+                    <p class="rights">All rights reserved.</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
