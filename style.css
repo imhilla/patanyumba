@@ -185,6 +185,53 @@
     display: none;
   }
 
+
+  .lower {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    background-color: black;
+    padding: 20px;
+  }
+
+  .lower h1 {
+    font-size: 15px;
+  }
+
+  .lower a {
+    color: #d45749;
+    font-size: 14px;
+  }
+
+  .lower p {
+    font-size: 14px;
+  }
+
+  .subscribe input {
+    background-color: black;
+    border: 1px solid gray;
+    padding: 1px 3px;
+  }
+
+  .subscribe button {
+    color: white;
+    background-color: gray;
+    margin-left: -5px;
+    padding: 2px 7px;
+    border: none;
+  }
+
+  .last-footer {
+    background-color: gray;
+  }
+
+  .social li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
