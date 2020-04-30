@@ -896,18 +896,13 @@
     justify-content: space-between;
   }
 
-  .laptop-ul li {
-    margin-left: 2em;
+  
+  .homes-apply i {
+    color: blue;
   }
 
-  .laptop-ul li i {
+  .apply-button i {
     color: white;
-    font-size: 18px;
-  }
-
-  .laptop-ul li a {
-    color: white;
-    text-decoration: none;
   }
 
   h1.billboard {
@@ -1280,14 +1275,6 @@
     padding: 10px;
   }
 
-  .homes-apply i {
-    color: blue;
-  }
-
-  .apply-button i {
-    color: white;
-  }
-
   .home-more-info {
     max-width: 1000px;
     padding: 40px;
@@ -1309,6 +1296,21 @@
     background: none !important;
     height: 500px;
     width: 600px;
+  }
+
+  
+  .laptop-ul li {
+    margin-left: 2em;
+  }
+
+  .laptop-ul li i {
+    color: white;
+    font-size: 18px;
+  }
+
+  .laptop-ul li a {
+    color: white;
+    text-decoration: none;
   }
 }
 
@@ -1400,96 +1402,4 @@
 
 .signinbtn {
   border: none;
-}
-
-/*
-.homes-border {
-  border: 1px solid gray;
-  -webkit-box-shadow: 1px 6px 24px -14px rgba(10, 10, 10, 1);
-  -moz-box-shadow: 1px 6px 24px -14px rgba(10, 10, 10, 1);
-  box-shadow: 1px 6px 24px -14px rgba(10, 10, 10, 1);
-}
-
-.description-homes {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 20px;
-  padding: 20px;
-  margin: 20px;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-.county,
-.location6,
-.house-design,
-.price-range,
-.no-of-rooms,
-.size,
-.email {
-  border: 1px solid gray;
-  padding: 10px;
-}
-
-.brook h3,
-.map-directions h3 {
-  font: 10px;
-  color: hotpink;
-  padding-top: 20px;
-}
-
-.apply-button i {
-  color: white;
-}
-
-.apply-button {
-  color: white;
-  background-color: blue;
-  border: none;
-  margin: 10px;
-  padding: 5px 10px;
-}
-
-.home-info {
-  font-size: 15px;
-  text-transform: uppercase;
-}
-
-.telephone,
-.age,
-.website,
-.population {
-  padding-right: 10px;
-}
-
-.homes-apply {
-  padding: 10px;
-}
-
-.homes-apply i {
-  color: blue;
-}
-
-.home-more-info {
-  max-width: 1000px;
-  padding: 40px;
-}
-
-.map-directions h1 {
-  font-size: 25px;
-}
-
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 500px;
-  width: 600px;
-}
-
-.gmap-canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 500px;
-  width: 600px;
 }
