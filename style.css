@@ -1386,3 +1386,11 @@
 .signinbtn {
   border: none;
 }
+
+.class1 {
+  margin: 5px;
+}
+
+.class1 a {
+  color: white;
+}
