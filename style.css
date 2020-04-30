@@ -1096,9 +1096,6 @@
   border: 1px solid white;
 }
 
-form .sign-up-container {
-}
-
 .sign-up-form {
   padding: 20px;
   max-width: 400px;
@@ -1117,7 +1114,7 @@ form .sign-up-container {
 }
 
 .sign-up-button {
-padding: 10px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 .signupbtn {
@@ -1134,4 +1131,31 @@ padding: 10px 0 0 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 1px 6px 24px -14px rgba(10, 10, 10, 1);
+  -moz-box-shadow: 1px 6px 24px -14px rgba(10, 10, 10, 1);
+  box-shadow: 1px 6px 24px -14px rgba(10, 10, 10, 1);
+}
+
+.county,
+.location6,
+.house-design,
+.price-range,
+.no-of-rooms,
+.size,
+.email {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.description-homes h3 {
+  font-size: 22px;
+}
+
+.description-homes p {
+  font-size: 20px;
+  color: blue;
 }
