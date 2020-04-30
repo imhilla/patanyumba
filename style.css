@@ -175,6 +175,26 @@
     padding-top: 30px;
   }
 
+  .lower a {
+    color: #d45749;
+    font-size: 14px;
+  }
+
+  .social li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+
+  .social-icons li {
+    margin: 20px;
+  }
+
+  .social-icons li a {
+    color: white;
+    font-size: 17px;
+  }
+
   .upper-footer ul li a {
     color: white;
     text-decoration: none;
@@ -204,11 +224,6 @@
     font-size: 15px;
   }
 
-  .lower a {
-    color: #d45749;
-    font-size: 14px;
-  }
-
   .lower p {
     font-size: 14px;
   }
@@ -231,12 +246,6 @@
     background-color: gray;
   }
 
-  .social li a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-  }
-
   .social {
     display: flex;
     flex-direction: column;
@@ -246,15 +255,6 @@
   .social-icons {
     display: flex;
     flex-direction: row;
-  }
-
-  .social-icons li {
-    margin: 20px;
-  }
-
-  .social-icons li a {
-    color: white;
-    font-size: 17px;
   }
 
   .social-text {
@@ -274,6 +274,15 @@
   .results-grid img {
     width: 100%;
     height: auto;
+  }
+
+  .home-more-info p {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px 5px 5px 5px;
   }
 
   .found .description p {
@@ -302,6 +311,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 14px;
   }
 
   .form-section h1 {
@@ -311,10 +321,6 @@
 
   .drop-down-section input {
     border-radius: 3px;
-  }
-
-  .drop-down-section {
-    font-size: 14px;
   }
 
   .drop-down-section label {
@@ -389,20 +395,10 @@
   .homes-apply {
     flex-direction: column;
     margin: 10px;
-
   }
 
   .map-directions h1 {
     font-size: 16px;
-  }
-
-  .home-more-info p {
-    display: flex;
-    flex-direction: column;
-    font-size: 10px;
-    text-align: center;
-    margin: 10px;
-    padding: 5px
   }
 
   .mapouter {
