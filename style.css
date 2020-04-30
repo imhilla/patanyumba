@@ -1295,6 +1295,11 @@
     height: 500px;
     width: 600px;
   }
+
+  .gmap_canvas {
+    width: 600;
+    height: 500;
+  }
 }
 
 .global {

@@ -72,18 +72,18 @@
   <section>
     <form class="search-results">
       <div class="form-section">
-        <h1>Filter by name, county :</h1>
+        <h2>Filter by name, county :</h2>
       </div>
 
       <div class="drop-down-section">
         <div>
           <label for="find-home">Find a home:*</label>
-          <input type="text">
+          <input type="text" id="find-home">
         </div>
 
         <div>
           <label for="estate-name">Estate name:*</label>
-          <select>
+          <select id="estate-name">
             <option value="Mathare">Muthaiga</option>
             <option value="saab">Runda</option>
             <option value="mercedes">Kitisuru</option>
@@ -93,7 +93,7 @@
 
         <div>
           <label for="house-designs">House designs:*</label>
-          <select>
+          <select id="house-designs">
             <option value="Mathare">Apartment</option>
             <option value="saab">Bungalow</option>
             <option value="mercedes">Cottage</option>
@@ -103,7 +103,7 @@
 
         <div>
           <label for="price-range">Price range</label>
-          <select>
+          <select id="price-range">
             <option value="Mathare">Above 350, 000</option>
             <option value="saab">300,000</option>
             <option value="mercedes">200,000</option>
@@ -113,7 +113,7 @@
 
         <div>
           <label for="no-of-rooms">No of rooms*</label>
-          <select>
+          <select id="no-of-rooms">
             <option value="Mathare">Above 20</option>
             <option value="saab">10 -15</option>
             <option value="mercedes">5 - 10</option>
@@ -123,29 +123,17 @@
 
         <div>
           <label for="size">Size:*</label>
-          <select>
+          <select id="size">
             <option value="Mathare">10 acres</option>
             <option value="saab">7 acres</option>
             <option value="mercedes">5 acres</option>
             <option value="audi">2 acres</option>
           </select>
         </div>
-        <div>
-          <label for="search" class="invisible">Size:*</label>
-          <div class="button0">
-            <button type="button">Search</button>
-          </div>
-        </div>
-        <div>
-          <label for="search" class="invisible">Size:*</label>
-          <div class="button1">
-            <button type="button">Clear</button>
-          </div>
-        </div>
       </div>
     </form>
     <div class="found">
-      <h1>Search results found 8 home(s).</h1>
+      <h2>Search results found 8 home(s).</h2>
       <div class="results-grid">
         <div>
           <img src="img/single-family-detached-home.jpg" alt="">
@@ -236,7 +224,7 @@
           <li><a href="">GOOGLE++</a></li>
         </ul>
         <div class="hide">
-          <li><img src="img/location.png" class="location" alt="" /></li>
+        <img src="img/location.png" class="location" alt="" />
         </div>
       </div>
     </div>
