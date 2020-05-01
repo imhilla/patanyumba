@@ -105,6 +105,9 @@
 
   .phone-version {
     background-color: #d45749;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .homes-apply i {
