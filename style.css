@@ -98,8 +98,7 @@
 
 @media screen and (max-width: 768px) {
 
-  .tablet-version,
-  .laptop-version {
+  .tablet-version .laptop-ul a, {
     display: none;
   }
 
@@ -533,8 +532,7 @@
     align-items: center;
   }
 
-  .laptop-version,
-  .phone-version {
+  .tablet-version .laptop-ul a, {
     display: none;
   }
 
@@ -973,11 +971,6 @@
 
   .laptop-version {
     background-color: #d45749;
-  }
-
-  .tablet-version,
-  .phone-version {
-    display: none;
   }
 
   .social,
