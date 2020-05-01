@@ -1,3 +1,101 @@
+.global {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background: url(img/backroundimg.jpg) 50% 100% no-repeat;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.form-container {
+  height: fit-content;
+}
+
+.fieldset {
+  max-width: fit-content;
+  align-self: center;
+}
+
+.how-works {
+  background: rgba(255, 255, 255);
+  max-width: fit-content;
+  align-self: center;
+  margin: 30px;
+}
+
+.procedure h1 {
+  color: #d45749;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.grid1,
+.grid2,
+.grid3,
+.grid4 {
+  padding: 70px;
+}
+
+.procedure-grids div i {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.fa-map-marker-alt {
+  color: white;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.sign-up-form {
+  padding: 20px;
+  max-width: 400px;
+  margin: 50px auto auto auto;
+}
+
+.sign-up-form input {
+  border: none;
+  border-bottom: 1px dashed black;
+  padding: 6px 0 6px 3px;
+  background-color: rgb(224, 221, 221);
+}
+
+.sign-up-form label {
+  text-transform: uppercase;
+}
+
+.sign-up-button {
+  padding: 10px 0 0 0;
+}
+
+.signupbtn {
+  background-color: #d45749;
+  border: none;
+  color: white;
+}
+
+.signinbtn {
+  border: none;
+}
+
+.class1 {
+  margin: 5px;
+}
+
+.class1 a {
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   .tablet-version,
   .laptop-version {
@@ -1300,102 +1398,4 @@
     width: 600;
     height: 500;
   }
-}
-
-.global {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  background: url(img/backroundimg.jpg) 50% 100% no-repeat;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-size: cover;
-}
-
-.form-container {
-  height: fit-content;
-}
-
-.fieldset {
-  max-width: fit-content;
-  align-self: center;
-}
-
-.how-works {
-  background: rgba(255, 255, 255);
-  max-width: fit-content;
-  align-self: center;
-  margin: 30px;
-}
-
-.procedure h1 {
-  color: #d45749;
-  text-align: center;
-  font-size: 25px;
-  margin-top: 30px;
-}
-
-.grid1,
-.grid2,
-.grid3,
-.grid4 {
-  padding: 70px;
-}
-
-.procedure-grids div i {
-  font-size: 30px;
-  margin: 10px;
-}
-
-.fa-map-marker-alt {
-  color: white;
-  font-size: 30px;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  border: 1px solid white;
-}
-
-.sign-up-form {
-  padding: 20px;
-  max-width: 400px;
-  margin: 50px auto auto auto;
-}
-
-.sign-up-form input {
-  border: none;
-  border-bottom: 1px dashed black;
-  padding: 6px 0 6px 3px;
-  background-color: rgb(224, 221, 221);
-}
-
-.sign-up-form label {
-  text-transform: uppercase;
-}
-
-.sign-up-button {
-  padding: 10px 0 0 0;
-}
-
-.signupbtn {
-  background-color: #d45749;
-  border: none;
-  color: white;
-}
-
-.signinbtn {
-  border: none;
-}
-
-.class1 {
-  margin: 5px;
-}
-
-.class1 a {
-  color: white;
 }
