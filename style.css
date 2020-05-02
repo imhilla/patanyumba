@@ -4,6 +4,7 @@ header {
   width: 100%;
   overflow-x: hidden;
 }
+
 .global {
   padding-top: 100px;
   width: 100%;
@@ -319,7 +320,6 @@ li {
     color: rgb(216, 211, 211);
     font-size: 14px;
   }
-  
 
   .social-icons li {
     margin: 20px;
@@ -425,7 +425,6 @@ li {
     padding-top: 30px;
     text-align: center;
   }
-
 
   .drop-down-section {
     flex-direction: column;
@@ -692,7 +691,6 @@ li {
     justify-content: center;
     width: 100%;
     overflow: hidden;
-    width: 100%;
   }
 
   .lower a {
