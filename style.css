@@ -95,27 +95,31 @@
   color: white;
 }
 
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.laptop-ul {
+  margin: auto 30px;
+}
+
+header {
+  background-color: #d45749;
+}
+
+nav {
+  height: 100px;
+}
+
+.logo img {
+  height: 50px;
+  width: 200px;
+margin: 20px;
+}
+
 @media screen and (max-width: 768px) {
-  .laptop-ul a {
-    display: none;
-  }
-
-  .nav-container ul li i {
-    font-size: 15px;
-    color: white;
-  }
-
-  .nav-container {
-    background-color: #d45749;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .laptop-ul li {
-    float: left;
-  }
-
   .homes-apply i {
     color: blue;
   }
@@ -124,20 +128,8 @@
     color: white;
   }
 
-  .phone-version ul li i {
-    color: white;
-    padding-top: 15px;
-    padding-left: 10px;
-  }
-
   .search-results {
     display: none;
-  }
-
-  .logo img {
-    width: 100px;
-    height: 30px;
-    margin: 10px;
   }
 
   h1.billboard {
@@ -505,23 +497,6 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  .logo img {
-    width: 150px;
-    height: 40px;
-    margin: 10px 20px;
-  }
-
-  .tablet-version {
-    background-color: #d45749;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .tablet-version .laptop-ul a {
-    display: none;
-  }
-
   .homes-apply i {
     color: blue;
   }
@@ -539,21 +514,6 @@
   .form-section,
   .drop-down-section {
     display: flex;
-  }
-
-  .laptop-ul {
-    flex-direction: row;
-    margin: auto;
-    flex-wrap: wrap;
-  }
-
-  .laptop-ul li {
-    padding-right: 4.5em;
-  }
-
-  .laptop-ul li i {
-    color: white;
-    font-size: 18px;
   }
 
   h1.billboard {
@@ -660,8 +620,8 @@
     background-color: black;
     padding-top: 70px;
     margin: auto;
-    width: 100vw;
     justify-content: center;
+    overflow: hidden;
   }
 
   .lower a {
@@ -925,18 +885,6 @@
 }
 
 @media screen and (min-width: 1025px) {
-  .logo img {
-    margin: 0.625em 0 0.625em 1.875em;
-  }
-
-  .laptop-ul {
-    margin: auto 1.85em;
-  }
-
-  .laptop-version {
-    background-color: #d45749;
-  }
-
   .social,
   .social-icons,
   .social-text,
@@ -947,15 +895,6 @@
   .nav-container ul,
   .form-container {
     display: flex;
-  }
-
-  .nav-container,
-  .nav-container ul {
-    flex-direction: row;
-  }
-
-  .nav-container {
-    justify-content: space-between;
   }
 
   .homes-apply i {
@@ -1066,7 +1005,8 @@
     background-color: black;
     padding-top: 70px;
     margin: auto;
-    width: 100vw;
+    width: 100%;
+    overflow: hidden;
     justify-content: center;
   }
 
