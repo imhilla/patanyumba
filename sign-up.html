@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/fdedc31e53.js" crossorigin="anonymous"></script>
@@ -14,48 +13,50 @@
 </head>
 
 <body>
-    <header class="laptop-version tablet-version phone-version">
-        <nav class="nav-container d-flex align-items-end">
-          <div class="logo">
-            <a href=""><img src="img/logoresized.PNG" alt=""></a>
-          </div>
-          <ul class="laptop-ul">
-            <li><i class="fas fa-search"></i><a href=""> HOMES</a></li>
-            <li><i class="fas fa-home"></i><a href=""> ABOUT</a></li>
-            <li><i class="fas fa-blog"></i><a href=""> BLOG</a></li>
-            <li><i class="fas fa-bars"></i><a href=""> MORE..</a></li>
-          </ul>
-        </nav>
-      </header>
-    <form action="sign-up.html" class="sign-up-form">
-        <div class="sign-up-container d-flex flex-column">
-            <label for="name">First Name*</label>
-            <input type="text" id="name" placeholder="First Name" name="name" required>
-
-            <label for="second">Second Name</label>
-            <input type="text" id="second" placeholder="Second Name" name="name" required>
-
-            <label for="email">Email</label>
-            <input type="text" id="email" placeholder="Email" name="email" required>
-
-            <label for="psw">Username</label>
-            <input type="text" id="psw" placeholder="Username" name="name" required>
-
-            <label for="pswd">Username</label>
-            <input type="password" id="pswd" placeholder="Username" name="name" required>
-
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Enter Password" name="password" required>
-
-            <label for="psw-repeat">Confirm Password</label>
-            <input type="password" id="psw-repeat" placeholder="Confirm Password" name="password-rpt" required>
-
-            <div class="sign-up-button">
-                <button type="submit" class="signupbtn">Sign Up</button>
-                <button type="button" class="signinbtn">Sign in</button>
+    <header>
+        <nav class="nav-container">
+            <div class="logo">
+                <a href=""><img src="img/logoresized.PNG" alt=""></a>
             </div>
-        </div>
-    </form>
+            <ul class="laptop-ul">
+                <li><i class="fas fa-search"></i><a href=""> HOMES</a></li>
+                <li><i class="fas fa-home"></i><a href=""> ABOUT</a></li>
+                <li><i class="fas fa-blog"></i><a href=""> BLOG</a></li>
+                <li><i class="fas fa-bars"></i><a href=""> MORE..</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="sign-up.html" class="sign-up-form">
+            <div class="sign-up-container d-flex flex-column">
+                <label for="name">First Name*</label>
+                <input type="text" id="name" placeholder="First Name" name="name" required>
+
+                <label for="second">Second Name</label>
+                <input type="text" id="second" placeholder="Second Name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Email" name="email" required>
+
+                <label for="psw">Username</label>
+                <input type="text" id="psw" placeholder="Username" name="name" required>
+
+                <label for="pswd">Username</label>
+                <input type="password" id="pswd" placeholder="Username" name="name" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter Password" name="password" required>
+
+                <label for="psw-repeat">Confirm Password</label>
+                <input type="password" id="psw-repeat" placeholder="Confirm Password" name="password-rpt" required>
+
+                <div class="sign-up-button">
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                    <button type="button" class="signinbtn">Sign in</button>
+                </div>
+            </div>
+        </form>
+    </main>
     <footer class="d-flex flex-column">
         <div class="d-flex flex-row upper-footer">
             <div>
@@ -101,7 +102,7 @@
         </div>
         <div class="last-footer">
             <div class="social">
-                <ul class="social-icons">
+                <ul class="social-icons d-flex flex-row">
                     <li>
                         <a href="" class="facebook"><i class="fab fa-facebook-square"></i></a>
                     </li>
@@ -124,6 +125,10 @@
                     <p class="rights">All rights reserved.</p>
 
                 </div>
+                <!--  <div class="sign-up-button class1">
+                <button type="submit" class="signupbtn">Sign Up</button>
+                <button type="button" class="signinbtn">Sign in</button>
+              </div>-->
             </div>
         </div>
     </footer>
