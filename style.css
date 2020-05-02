@@ -541,17 +541,17 @@
     display: flex;
   }
 
-  .tablet-ul {
+  .laptop-ul {
     flex-direction: row;
     margin: auto;
     flex-wrap: wrap;
   }
 
-  .tablet-ul li {
+  .laptop-ul li {
     padding-right: 4.5em;
   }
 
-  .tablet-ul li i {
+  .laptop-ul li i {
     color: white;
     font-size: 18px;
   }
@@ -1335,7 +1335,6 @@
   }
 
   .mapouter {
-    position: relative;
     text-align: right;
     height: 500px;
     width: 600px;
@@ -1352,4 +1351,8 @@
     width: 600;
     height: 500;
   }
+}
+
+.map-directions {
+  padding-bottom: 40px;
 }
