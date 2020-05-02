@@ -1,6 +1,6 @@
-# Patanyumba website
+## Patanyumba website
 
-In this project, i got the chance to build a web app. The UI looks like <a href="https://www.behance.net/gallery/25563385/PatashuleKE">this.</a>
+In this project, I got the chance to build a web app. The UI looks like <a href="https://www.behance.net/gallery/25563385/PatashuleKE">this.</a>
 
 Here's the screenshot of my work
 ![Screenshot](./img/patanyumba.JPG "patanyumba")
@@ -29,7 +29,15 @@ In this page we allow the user to use dropdown menus to easily figure out which 
 This is the results page for every homes in the webpage. It has the name of the home found and its properties.
 
 
-Built With
+## Live Demo
+
+
+## How to set up in local machine
+
+Pata nyumba is easier to setup. First you configure an environment such as a server that will hold the website. Secondly, buy a domain name relevant to the services patanyumba offers. Thirdly, if you have the pages, use an application that can push the pages to a remote server, such as Go daddy. Forth, by this point you will have your site up and running.
+
+
+## Built With
 
 - HTML,
 - CSS,
