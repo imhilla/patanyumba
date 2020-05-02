@@ -28,14 +28,11 @@ In this page we allow the user to use dropdown menus to easily figure out which 
 
 This is the results page for every homes in the webpage. It has the name of the home found and its properties.
 
-
 ## Live Demo
-
 
 ## How to set up in local machine
 
 Pata nyumba is easier to setup. First you configure an environment such as a server that will hold the website. Secondly, buy a domain name relevant to the services patanyumba offers. Thirdly, if you have the pages, use an application that can push the pages to a remote server, such as Go daddy. Forth, by this point you will have your site up and running.
-
 
 ## Built With
 
@@ -43,7 +40,7 @@ Pata nyumba is easier to setup. First you configure an environment such as a ser
 - CSS,
 - Google Chrome Developer tools,
 - Bootstrap
--Media queries
+  -Media queries
 
 ## Authors
 
