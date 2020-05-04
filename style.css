@@ -120,6 +120,10 @@ li {
   padding: 2px 10px;
 }
 
+.map-directions {
+  padding-bottom: 40px;
+}
+
 @media screen and (max-width: 768px) {
   .nav-container {
     display: flex;
@@ -318,6 +322,10 @@ li {
     overflow: hidden;
   }
 
+  .contact {
+    margin: 10px 0;
+  }
+
   .lower a {
     color: #d45749;
     font-size: 14px;
@@ -347,7 +355,6 @@ li {
   .upper-footer ul li {
     display: inline-block;
     padding-right: 20px;
-    padding-left: 20px;
   }
 
   .hide {
@@ -378,9 +385,9 @@ li {
 
   .subscribe button {
     color: white;
-    background-color: gray;
+    background-color: rgb(48, 47, 47);
     margin-left: -5px;
-    padding: 2px 7px;
+    padding: 2px 20px;
     border: none;
   }
 
@@ -398,6 +405,7 @@ li {
     color: rgb(94, 94, 94);
     padding-left: 20px;
     text-transform: uppercase;
+    font-size: 15px;
   }
 
   .results-grid {
@@ -433,6 +441,7 @@ li {
     font-size: 23px;
     padding-top: 30px;
     text-align: center;
+    margin: 10px;
   }
 
   .drop-down-section {
@@ -526,14 +535,14 @@ li {
     position: relative;
     text-align: right;
     height: auto;
-    width: 280px;
+    width: 100%;
   }
 
   .gmap-canvas {
     overflow: hidden;
     background: none;
     height: auto;
-    width: 280px;
+    width: 100%;
   }
 }
 
@@ -712,6 +721,10 @@ li {
     color: #d45749;
   }
 
+  .social-icons li {
+    margin: 20px;
+  }
+
   .upper-footer ul li {
     padding: 5px 0;
     padding: 0 15px;
@@ -766,7 +779,7 @@ li {
 
   .subscribe button {
     color: white;
-    background-color: rgb(99, 96, 96);
+    background-color: rgb(59, 59, 59);
     margin-left: -5px;
     padding: 6px 15px;
     border: none;
@@ -791,10 +804,6 @@ li {
     flex-direction: row;
   }
 
-  .social-icons li {
-    margin: 20px;
-  }
-
   .social-icons li a {
     color: rgb(133, 132, 132);
     font-size: 17px;
@@ -804,6 +813,7 @@ li {
     flex-direction: row;
     color: rgb(114, 113, 113);
     text-transform: uppercase;
+    font-size: 16px;
   }
 
   .made-with,
@@ -824,7 +834,7 @@ li {
     align-items: center;
   }
 
-  .found h1 {
+  .found h2 {
     font-size: 25px;
     padding-top: 30px;
   }
@@ -1138,6 +1148,28 @@ li {
     margin-right: 2em;
   }
 
+  .social-icons li {
+    margin: 20px;
+  }
+
+  .upper-footer ul {
+    border-top: 0.5px solid rgb(167, 163, 163);
+    border-bottom: 0.5px solid rgb(180, 177, 177);
+  }
+
+  .upper-footer ul li {
+    margin: 0 20px;
+    padding: 10px 0;
+  }
+
+  .first-about a {
+    padding-right: 20px;
+  }
+
+  .first-facebook a {
+    padding-left: 60px;
+  }
+
   .laptop-ul li i {
     color: white;
     font-size: 18px;
@@ -1148,10 +1180,6 @@ li {
     text-decoration: none;
   }
 
-  .social-icons li {
-    margin: 20px;
-  }
-
   .social-icons li a {
     color: rgb(151, 149, 149);
     font-size: 18px;
@@ -1160,24 +1188,6 @@ li {
   .upper-footer ul li a {
     color: white;
     text-decoration: none;
-  }
-
-  .upper-footer ul li {
-    margin: 0 20px;
-    padding: 10px 0;
-  }
-
-  .upper-footer ul {
-    border-top: 0.5px solid rgb(167, 163, 163);
-    border-bottom: 0.5px solid rgb(180, 177, 177);
-  }
-
-  .first-about a {
-    padding-right: 20px;
-  }
-
-  .first-facebook a {
-    padding-left: 60px;
   }
 
   .location {
@@ -1325,9 +1335,10 @@ li {
     align-items: center;
   }
 
-  .found h1 {
+  .found h2 {
     font-size: 25px;
     padding-top: 30px;
+    margin-top: 20px;
   }
 
   .homes-border {
@@ -1416,8 +1427,4 @@ li {
     width: 600;
     height: 500;
   }
-}
-
-.map-directions {
-  padding-bottom: 40px;
 }
